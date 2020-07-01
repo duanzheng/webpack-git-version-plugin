@@ -30,11 +30,11 @@ module.exports = {
 
 JS file:
 
-![image-20200701224226315](/Users/tony/Library/Application Support/typora-user-images/image-20200701224226315.png)
+![image-20200701224226315](./assets/image-20200701224226315.png)
 
 CSS file:
 
-![image-20200701224252835](/Users/tony/Library/Application Support/typora-user-images/image-20200701224252835.png)
+![image-20200701224252835](./assets/image-20200701224252835.png)
 
 ## Options
 
@@ -61,4 +61,4 @@ module.exports = {
 
 The generated chunk file:
 
-![image-20200701223133349](/Users/tony/Library/Application Support/typora-user-images/image-20200701223133349.png)
+![image-20200701223133349](./assets/image-20200701223133349.png)
