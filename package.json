@@ -1,0 +1,51 @@
+{
+  "name": "webpack-git-version-plugin",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "Tony段 <duanzheng21518@gmail.com>",
+  "license": "MIT",
+  "description": "Write the hash value of the current commit of the code to the chunk file",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src -d lib --copy-files",
+    "lint": "cross-env eslint --cache src"
+  },
+  "dependencies": {
+    "simple-git": "^2.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "webpack": "^4.37.0 || ^5.0.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "git",
+    "hash",
+    "version"
+  ]
+}
