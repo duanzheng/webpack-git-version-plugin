@@ -1,5 +1,10 @@
 # webpack-git-version-plugin
 
+[![GitHub license](https://img.shields.io/github/license/duanzheng/webpack-git-version-plugin)](https://github.com/duanzheng/webpack-git-version-plugin/blob/master/LICENSE)
+![node-current](https://img.shields.io/node/v/webpack-git-version-plugin)
+![npm](https://img.shields.io/npm/v/webpack-git-version-plugin)
+![npm](https://img.shields.io/npm/dw/webpack-git-version-plugin)
+
 Write the hash value of the current commit of the code to the js and css chunk file.
 
 ## Why
