@@ -8,5 +8,6 @@
       "after",
       { "overrides": { "?": "before", ":": "before" } }
     ]
-  }
+  },
+  "ignorePatterns": "/lib"
 }
