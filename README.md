@@ -7,6 +7,8 @@
 
 Write the hash value of the current commit of the code to the js and css chunk file.
 
+将最近一次 Git 提交记录的 hash 值写到 chunk 文件中。
+
 ## Why
 
 After an online problem occurs in the current project, we need to know the version of the problem code and whether the problem is caused by the cache not being refreshed. Writing the hash value of the current git commit to the file can help us analyze these situations.
@@ -41,7 +43,7 @@ CSS file:
 
 ![image-20200701224252835](./assets/image-20200701224252835.png)
 
-## Options
+## Configuration
 
 ### `processor`
 
