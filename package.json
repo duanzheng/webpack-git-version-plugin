@@ -19,7 +19,7 @@
     "lint": "cross-env eslint --cache src"
   },
   "dependencies": {
-    "simple-git": "^2.11.0"
+    "simple-git": "^3.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
